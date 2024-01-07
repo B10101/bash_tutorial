@@ -1,0 +1,38 @@
+NOTES
+
+Variables are created using '=' with no space before or after
+
+When using arguments, ${@} takes all arguments while ${1...n} takes the said number
+
+${0} returns the name of the file
+
+Arrays are created using (). Indexed using [], where as [@] returns all its elements
+
+prepending with # return the number of elements
+      example
+        echo ${#arr[@]}
+
+
+if statements
+  if [[ test ]] 
+  then
+    commands
+  fi
+
+if- else statements
+  if [[ test ]]
+  then
+    commands
+  else
+    commands
+  fi  
+
+LOOP
+
+
+
+
+        
+
+
+
